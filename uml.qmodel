@@ -49,12 +49,13 @@
                          </base-DElement>
                          <object>{0f2f61b3-ec44-4899-b94d-0ab6746d9cab}</object>
                          <name>Options</name>
-                         <pos>x:355;y:225</pos>
-                         <rect>x:-75;y:-40;w:150;h:80</rect>
+                         <pos>x:205;y:440</pos>
+                         <rect>x:-85;y:-55;w:170;h:110</rect>
                          <auto-sized>false</auto-sized>
                          <visual-role>0</visual-role>
                         </DObject>
                        </base-DObject>
+                       <show-all-members>true</show-all-members>
                       </DClass>
                      </instance>
                     </item>
@@ -70,12 +71,13 @@
                          </base-DElement>
                          <object>{5073c788-7dc4-42f3-a27c-59477b04c767}</object>
                          <name>Preview</name>
-                         <pos>x:365;y:95</pos>
-                         <rect>x:-110;y:-40;w:220;h:80</rect>
+                         <pos>x:390;y:440</pos>
+                         <rect>x:-55;y:-55;w:110;h:110</rect>
                          <auto-sized>false</auto-sized>
                          <visual-role>0</visual-role>
                         </DObject>
                        </base-DObject>
+                       <show-all-members>true</show-all-members>
                       </DClass>
                      </instance>
                     </item>
@@ -90,13 +92,14 @@
                           </DElement>
                          </base-DElement>
                          <object>{99f5ab0b-a88e-4b7d-be14-1317d3732c49}</object>
-                         <name>Frames</name>
-                         <pos>x:115;y:215</pos>
-                         <rect>x:-75;y:-45;w:150;h:90</rect>
+                         <name>Frame</name>
+                         <pos>x:10;y:440</pos>
+                         <rect>x:-80;y:-55;w:160;h:110</rect>
                          <auto-sized>false</auto-sized>
                          <visual-role>0</visual-role>
                         </DObject>
                        </base-DObject>
+                       <show-all-members>true</show-all-members>
                       </DClass>
                      </instance>
                     </item>
@@ -112,19 +115,141 @@
                          </base-DElement>
                          <object>{96f6a9e6-00ed-4e23-8a2a-8f4b101a9956}</object>
                          <name>MainWindow</name>
-                         <pos>x:115;y:95</pos>
-                         <rect>x:-95;y:-40;w:190;h:80</rect>
+                         <pos>x:205;y:15</pos>
+                         <rect>x:-60;y:-40;w:120;h:80</rect>
                          <auto-sized>false</auto-sized>
                          <visual-role>0</visual-role>
                         </DObject>
                        </base-DObject>
+                       <show-all-members>true</show-all-members>
                       </DClass>
+                     </instance>
+                    </item>
+                    <item>
+                     <instance type="DClass">
+                      <DClass>
+                       <base-DObject>
+                        <DObject>
+                         <base-DElement>
+                          <DElement>
+                           <uid>{7bd93431-54f5-47dc-b45c-b72750dee1ad}</uid>
+                          </DElement>
+                         </base-DElement>
+                         <object>{80193bea-b31e-44b0-8213-68946b145393}</object>
+                         <name>SpriteModel</name>
+                         <pos>x:205;y:235</pos>
+                         <rect>x:-85;y:-110;w:170;h:220</rect>
+                         <visual-role>0</visual-role>
+                        </DObject>
+                       </base-DObject>
+                       <show-all-members>true</show-all-members>
+                      </DClass>
+                     </instance>
+                    </item>
+                    <item>
+                     <instance type="DAssociation">
+                      <DAssociation>
+                       <base-DRelation>
+                        <DRelation>
+                         <base-DElement>
+                          <DElement>
+                           <uid>{60e6cd3e-9692-48f3-95fc-ddc181a5d383}</uid>
+                          </DElement>
+                         </base-DElement>
+                         <object>{da34844f-03e9-4b82-88e0-151c0a550896}</object>
+                         <a>{7bd93431-54f5-47dc-b45c-b72750dee1ad}</a>
+                         <b>{7a4b2dca-7986-4113-bf93-603eb723b1ad}</b>
+                        </DRelation>
+                       </base-DRelation>
+                       <a>
+                        <DAssociationEnd>
+                         <cradinality>1</cradinality>
+                         <navigable>true</navigable>
+                         <kind>2</kind>
+                        </DAssociationEnd>
+                       </a>
+                      </DAssociation>
+                     </instance>
+                    </item>
+                    <item>
+                     <instance type="DAssociation">
+                      <DAssociation>
+                       <base-DRelation>
+                        <DRelation>
+                         <base-DElement>
+                          <DElement>
+                           <uid>{e0d6fda5-8066-4c7f-93c4-559731aa6cb7}</uid>
+                          </DElement>
+                         </base-DElement>
+                         <object>{c82df137-252e-43c8-8dfe-ab528a66fe08}</object>
+                         <a>{7bd93431-54f5-47dc-b45c-b72750dee1ad}</a>
+                         <b>{e685e38b-721c-4d17-9d8a-a6f1307c7719}</b>
+                        </DRelation>
+                       </base-DRelation>
+                       <a>
+                        <DAssociationEnd>
+                         <cradinality>1</cradinality>
+                         <navigable>true</navigable>
+                         <kind>2</kind>
+                        </DAssociationEnd>
+                       </a>
+                      </DAssociation>
+                     </instance>
+                    </item>
+                    <item>
+                     <instance type="DAssociation">
+                      <DAssociation>
+                       <base-DRelation>
+                        <DRelation>
+                         <base-DElement>
+                          <DElement>
+                           <uid>{da0ae3af-9348-4093-9b23-bf680ceea6d7}</uid>
+                          </DElement>
+                         </base-DElement>
+                         <object>{f9840b11-8ddb-4218-a6ce-bcf00722149a}</object>
+                         <a>{7bd93431-54f5-47dc-b45c-b72750dee1ad}</a>
+                         <b>{5cca3206-1d25-4455-b597-8a5b7dc16c5a}</b>
+                        </DRelation>
+                       </base-DRelation>
+                       <a>
+                        <DAssociationEnd>
+                         <cradinality>1</cradinality>
+                         <navigable>true</navigable>
+                         <kind>2</kind>
+                        </DAssociationEnd>
+                       </a>
+                      </DAssociation>
+                     </instance>
+                    </item>
+                    <item>
+                     <instance type="DAssociation">
+                      <DAssociation>
+                       <base-DRelation>
+                        <DRelation>
+                         <base-DElement>
+                          <DElement>
+                           <uid>{f36be1f1-2e7f-4222-bd1c-edb9052ea06e}</uid>
+                          </DElement>
+                         </base-DElement>
+                         <object>{3ac53d91-96b6-4fce-82d9-6c88d0d2e974}</object>
+                         <a>{68ca069c-da9b-4678-b7a2-95d68d17e027}</a>
+                         <b>{7bd93431-54f5-47dc-b45c-b72750dee1ad}</b>
+                        </DRelation>
+                       </base-DRelation>
+                       <a>
+                        <DAssociationEnd>
+                         <cradinality>1</cradinality>
+                         <navigable>true</navigable>
+                         <kind>2</kind>
+                        </DAssociationEnd>
+                       </a>
+                      </DAssociation>
                      </instance>
                     </item>
                    </qlist>
                   </elements>
-                  <last-modified>1648057904677</last-modified>
-                  <toolbarid>Classes</toolbarid>
+                  <last-modified>1648076685472</last-modified>
+                  <toolbarid>Components</toolbarid>
                  </MDiagram>
                 </base-MDiagram>
                </MCanvasDiagram>
@@ -146,8 +271,68 @@
                    </MElement>
                   </base-MElement>
                   <name>Options</name>
+                  <relations>
+                   <handles>
+                    <handles>
+                     <qlist>
+                      <item>
+                       <handle>
+                        <uid>{2f308a86-66a7-44c2-b872-dc9b9bed10ee}</uid>
+                        <target>
+                         <instance type="MAssociation">
+                          <MAssociation>
+                           <base-MRelation>
+                            <MRelation>
+                             <base-MElement>
+                              <MElement>
+                               <uid>{2f308a86-66a7-44c2-b872-dc9b9bed10ee}</uid>
+                              </MElement>
+                             </base-MElement>
+                             <a>{0f2f61b3-ec44-4899-b94d-0ab6746d9cab}</a>
+                             <b>{96f6a9e6-00ed-4e23-8a2a-8f4b101a9956}</b>
+                            </MRelation>
+                           </base-MRelation>
+                           <a>
+                            <MAssociationEnd>
+                             <navigable>true</navigable>
+                            </MAssociationEnd>
+                           </a>
+                          </MAssociation>
+                         </instance>
+                        </target>
+                       </handle>
+                      </item>
+                     </qlist>
+                    </handles>
+                   </handles>
+                  </relations>
                  </MObject>
                 </base-MObject>
+                <members>
+                 <qlist>
+                  <item>
+                   <MClassMember>
+                    <uid>{5fdd449f-127a-4217-81c4-54aacc92edc0}</uid>
+                    <type>1</type>
+                    <declaration>-selectedColor : QColor</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{30bb4326-d092-4327-bae8-95c6269f868c}</uid>
+                    <type>2</type>
+                    <declaration>+Options()</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{6dc7c6eb-7a56-43c4-a41c-5b3a6ec9adb1}</uid>
+                    <type>2</type>
+                    <declaration>+setSelectedOption(QColor)</declaration>
+                   </MClassMember>
+                  </item>
+                 </qlist>
+                </members>
                </MClass>
               </instance>
              </target>
@@ -167,8 +352,68 @@
                    </MElement>
                   </base-MElement>
                   <name>Preview</name>
+                  <relations>
+                   <handles>
+                    <handles>
+                     <qlist>
+                      <item>
+                       <handle>
+                        <uid>{bc9fa58c-ccb1-45d0-aa68-089210b2196a}</uid>
+                        <target>
+                         <instance type="MAssociation">
+                          <MAssociation>
+                           <base-MRelation>
+                            <MRelation>
+                             <base-MElement>
+                              <MElement>
+                               <uid>{bc9fa58c-ccb1-45d0-aa68-089210b2196a}</uid>
+                              </MElement>
+                             </base-MElement>
+                             <a>{5073c788-7dc4-42f3-a27c-59477b04c767}</a>
+                             <b>{96f6a9e6-00ed-4e23-8a2a-8f4b101a9956}</b>
+                            </MRelation>
+                           </base-MRelation>
+                           <a>
+                            <MAssociationEnd>
+                             <navigable>true</navigable>
+                            </MAssociationEnd>
+                           </a>
+                          </MAssociation>
+                         </instance>
+                        </target>
+                       </handle>
+                      </item>
+                     </qlist>
+                    </handles>
+                   </handles>
+                  </relations>
                  </MObject>
                 </base-MObject>
+                <members>
+                 <qlist>
+                  <item>
+                   <MClassMember>
+                    <uid>{9d1936c1-8384-471b-989e-57f5f53924be}</uid>
+                    <type>1</type>
+                    <declaration>-speed : int</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{37aa98ab-36d9-463a-8eae-e68aa4acbca4}</uid>
+                    <type>2</type>
+                    <declaration>+Preview()</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{ce565213-abe9-4a12-8415-6f4afcbf2383}</uid>
+                    <type>2</type>
+                    <declaration>+setSpeed(int)</declaration>
+                   </MClassMember>
+                  </item>
+                 </qlist>
+                </members>
                </MClass>
               </instance>
              </target>
@@ -187,9 +432,69 @@
                     <uid>{99f5ab0b-a88e-4b7d-be14-1317d3732c49}</uid>
                    </MElement>
                   </base-MElement>
-                  <name>Frames</name>
+                  <name>Frame</name>
+                  <relations>
+                   <handles>
+                    <handles>
+                     <qlist>
+                      <item>
+                       <handle>
+                        <uid>{ee45b97b-3c08-4d49-b32f-f474cc210871}</uid>
+                        <target>
+                         <instance type="MAssociation">
+                          <MAssociation>
+                           <base-MRelation>
+                            <MRelation>
+                             <base-MElement>
+                              <MElement>
+                               <uid>{ee45b97b-3c08-4d49-b32f-f474cc210871}</uid>
+                              </MElement>
+                             </base-MElement>
+                             <a>{99f5ab0b-a88e-4b7d-be14-1317d3732c49}</a>
+                             <b>{96f6a9e6-00ed-4e23-8a2a-8f4b101a9956}</b>
+                            </MRelation>
+                           </base-MRelation>
+                           <a>
+                            <MAssociationEnd>
+                             <navigable>true</navigable>
+                            </MAssociationEnd>
+                           </a>
+                          </MAssociation>
+                         </instance>
+                        </target>
+                       </handle>
+                      </item>
+                     </qlist>
+                    </handles>
+                   </handles>
+                  </relations>
                  </MObject>
                 </base-MObject>
+                <members>
+                 <qlist>
+                  <item>
+                   <MClassMember>
+                    <uid>{d21851df-bc89-4e90-93b5-60104883d9dd}</uid>
+                    <type>1</type>
+                    <declaration>-frame : QImage</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{74bbd97e-ab07-49a1-bdee-78ef44d3c020}</uid>
+                    <type>2</type>
+                    <declaration>+Frame(int x, int y)</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{4eb6d022-3c36-488e-8b64-f6b57d8ac65a}</uid>
+                    <type>2</type>
+                    <declaration>+setPixel(int x, int y, QColor)</declaration>
+                   </MClassMember>
+                  </item>
+                 </qlist>
+                </members>
                </MClass>
               </instance>
              </target>
@@ -209,9 +514,401 @@
                    </MElement>
                   </base-MElement>
                   <name>MainWindow</name>
+                  <relations>
+                   <handles>
+                    <handles>
+                     <qlist>
+                      <item>
+                       <handle>
+                        <uid>{ab24cdbb-0b6c-41c8-938a-b7b4e76fedac}</uid>
+                        <target>
+                         <instance type="MAssociation">
+                          <MAssociation>
+                           <base-MRelation>
+                            <MRelation>
+                             <base-MElement>
+                              <MElement>
+                               <uid>{ab24cdbb-0b6c-41c8-938a-b7b4e76fedac}</uid>
+                              </MElement>
+                             </base-MElement>
+                             <a>{96f6a9e6-00ed-4e23-8a2a-8f4b101a9956}</a>
+                             <b>{6b7c2423-7a18-4178-8f97-50bf68f48a8e}</b>
+                            </MRelation>
+                           </base-MRelation>
+                           <a>
+                            <MAssociationEnd>
+                             <navigable>true</navigable>
+                            </MAssociationEnd>
+                           </a>
+                          </MAssociation>
+                         </instance>
+                        </target>
+                       </handle>
+                      </item>
+                      <item>
+                       <handle>
+                        <uid>{a6f430e8-658d-427f-95bd-dc7257386d43}</uid>
+                        <target>
+                         <instance type="MAssociation">
+                          <MAssociation>
+                           <base-MRelation>
+                            <MRelation>
+                             <base-MElement>
+                              <MElement>
+                               <uid>{a6f430e8-658d-427f-95bd-dc7257386d43}</uid>
+                              </MElement>
+                             </base-MElement>
+                             <a>{96f6a9e6-00ed-4e23-8a2a-8f4b101a9956}</a>
+                             <b>{80193bea-b31e-44b0-8213-68946b145393}</b>
+                            </MRelation>
+                           </base-MRelation>
+                           <a>
+                            <MAssociationEnd>
+                             <navigable>true</navigable>
+                            </MAssociationEnd>
+                           </a>
+                          </MAssociation>
+                         </instance>
+                        </target>
+                       </handle>
+                      </item>
+                      <item>
+                       <handle>
+                        <uid>{3ac53d91-96b6-4fce-82d9-6c88d0d2e974}</uid>
+                        <target>
+                         <instance type="MAssociation">
+                          <MAssociation>
+                           <base-MRelation>
+                            <MRelation>
+                             <base-MElement>
+                              <MElement>
+                               <uid>{3ac53d91-96b6-4fce-82d9-6c88d0d2e974}</uid>
+                              </MElement>
+                             </base-MElement>
+                             <a>{96f6a9e6-00ed-4e23-8a2a-8f4b101a9956}</a>
+                             <b>{80193bea-b31e-44b0-8213-68946b145393}</b>
+                            </MRelation>
+                           </base-MRelation>
+                           <a>
+                            <MAssociationEnd>
+                             <cardinality>1</cardinality>
+                             <navigable>true</navigable>
+                             <kind>2</kind>
+                            </MAssociationEnd>
+                           </a>
+                          </MAssociation>
+                         </instance>
+                        </target>
+                       </handle>
+                      </item>
+                     </qlist>
+                    </handles>
+                   </handles>
+                  </relations>
+                 </MObject>
+                </base-MObject>
+                <members>
+                 <qlist>
+                  <item>
+                   <MClassMember>
+                    <uid>{749159f0-e9e7-44fe-abad-f88d456415b9}</uid>
+                    <type>1</type>
+                    <declaration>-model : SpriteModel</declaration>
+                   </MClassMember>
+                  </item>
+                 </qlist>
+                </members>
+               </MClass>
+              </instance>
+             </target>
+            </handle>
+           </item>
+           <item>
+            <handle>
+             <uid>{6b7c2423-7a18-4178-8f97-50bf68f48a8e}</uid>
+             <target>
+              <instance type="MClass">
+               <MClass>
+                <base-MObject>
+                 <MObject>
+                  <base-MElement>
+                   <MElement>
+                    <uid>{6b7c2423-7a18-4178-8f97-50bf68f48a8e}</uid>
+                   </MElement>
+                  </base-MElement>
+                  <name>mainwindow.ui</name>
                  </MObject>
                 </base-MObject>
                </MClass>
+              </instance>
+             </target>
+            </handle>
+           </item>
+           <item>
+            <handle>
+             <uid>{80193bea-b31e-44b0-8213-68946b145393}</uid>
+             <target>
+              <instance type="MClass">
+               <MClass>
+                <base-MObject>
+                 <MObject>
+                  <base-MElement>
+                   <MElement>
+                    <uid>{80193bea-b31e-44b0-8213-68946b145393}</uid>
+                   </MElement>
+                  </base-MElement>
+                  <name>SpriteModel</name>
+                  <relations>
+                   <handles>
+                    <handles>
+                     <qlist>
+                      <item>
+                       <handle>
+                        <uid>{da34844f-03e9-4b82-88e0-151c0a550896}</uid>
+                        <target>
+                         <instance type="MAssociation">
+                          <MAssociation>
+                           <base-MRelation>
+                            <MRelation>
+                             <base-MElement>
+                              <MElement>
+                               <uid>{da34844f-03e9-4b82-88e0-151c0a550896}</uid>
+                              </MElement>
+                             </base-MElement>
+                             <a>{80193bea-b31e-44b0-8213-68946b145393}</a>
+                             <b>{99f5ab0b-a88e-4b7d-be14-1317d3732c49}</b>
+                            </MRelation>
+                           </base-MRelation>
+                           <a>
+                            <MAssociationEnd>
+                             <cardinality>1</cardinality>
+                             <navigable>true</navigable>
+                             <kind>2</kind>
+                            </MAssociationEnd>
+                           </a>
+                          </MAssociation>
+                         </instance>
+                        </target>
+                       </handle>
+                      </item>
+                      <item>
+                       <handle>
+                        <uid>{c82df137-252e-43c8-8dfe-ab528a66fe08}</uid>
+                        <target>
+                         <instance type="MAssociation">
+                          <MAssociation>
+                           <base-MRelation>
+                            <MRelation>
+                             <base-MElement>
+                              <MElement>
+                               <uid>{c82df137-252e-43c8-8dfe-ab528a66fe08}</uid>
+                              </MElement>
+                             </base-MElement>
+                             <a>{80193bea-b31e-44b0-8213-68946b145393}</a>
+                             <b>{0f2f61b3-ec44-4899-b94d-0ab6746d9cab}</b>
+                            </MRelation>
+                           </base-MRelation>
+                           <a>
+                            <MAssociationEnd>
+                             <cardinality>1</cardinality>
+                             <navigable>true</navigable>
+                             <kind>2</kind>
+                            </MAssociationEnd>
+                           </a>
+                          </MAssociation>
+                         </instance>
+                        </target>
+                       </handle>
+                      </item>
+                      <item>
+                       <handle>
+                        <uid>{f9840b11-8ddb-4218-a6ce-bcf00722149a}</uid>
+                        <target>
+                         <instance type="MAssociation">
+                          <MAssociation>
+                           <base-MRelation>
+                            <MRelation>
+                             <base-MElement>
+                              <MElement>
+                               <uid>{f9840b11-8ddb-4218-a6ce-bcf00722149a}</uid>
+                              </MElement>
+                             </base-MElement>
+                             <a>{80193bea-b31e-44b0-8213-68946b145393}</a>
+                             <b>{5073c788-7dc4-42f3-a27c-59477b04c767}</b>
+                            </MRelation>
+                           </base-MRelation>
+                           <a>
+                            <MAssociationEnd>
+                             <cardinality>1</cardinality>
+                             <navigable>true</navigable>
+                             <kind>2</kind>
+                            </MAssociationEnd>
+                           </a>
+                          </MAssociation>
+                         </instance>
+                        </target>
+                       </handle>
+                      </item>
+                      <item>
+                       <handle>
+                        <uid>{a01ae711-1c6b-4ed7-9adb-6e91e8cda190}</uid>
+                        <target>
+                         <instance type="MAssociation">
+                          <MAssociation>
+                           <base-MRelation>
+                            <MRelation>
+                             <base-MElement>
+                              <MElement>
+                               <uid>{a01ae711-1c6b-4ed7-9adb-6e91e8cda190}</uid>
+                              </MElement>
+                             </base-MElement>
+                             <a>{80193bea-b31e-44b0-8213-68946b145393}</a>
+                             <b>{96f6a9e6-00ed-4e23-8a2a-8f4b101a9956}</b>
+                            </MRelation>
+                           </base-MRelation>
+                           <a>
+                            <MAssociationEnd>
+                             <navigable>true</navigable>
+                            </MAssociationEnd>
+                           </a>
+                          </MAssociation>
+                         </instance>
+                        </target>
+                       </handle>
+                      </item>
+                     </qlist>
+                    </handles>
+                   </handles>
+                  </relations>
+                 </MObject>
+                </base-MObject>
+                <members>
+                 <qlist>
+                  <item>
+                   <MClassMember>
+                    <uid>{03ad0224-12b3-48fc-8807-7345adcb953f}</uid>
+                    <type>1</type>
+                    <declaration>-frames : vector&lt;Frame&gt;</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{a7a7cec6-2372-4ad7-a230-ccc2d54f319f}</uid>
+                    <type>1</type>
+                    <declaration>-options : Options</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{7feb3cd5-77c1-468a-8cfb-29a9734c1ccf}</uid>
+                    <type>1</type>
+                    <declaration>-preview : Preview</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{987ee88f-ab61-4e78-a1ba-9f1f87a878e3}</uid>
+                    <type>1</type>
+                    <declaration>-selectedColor : QColor</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{5b4316c4-9834-4d6f-8953-8478a44dd586}</uid>
+                    <type>1</type>
+                    <declaration>-x : int</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{45281c38-bd58-4352-a3ab-cbef31a6042e}</uid>
+                    <type>1</type>
+                    <declaration>-y : int</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{ed6f88da-4c82-4ccc-b9c5-9b4002d2d0a6}</uid>
+                    <type>2</type>
+                    <declaration>+SpriteModel(int x, int y)</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{c8df01a7-9f46-468e-9735-68afd65af362}</uid>
+                    <type>2</type>
+                    <declaration>+addNewFrame()</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{f8b53567-1e26-4b59-8244-1c99731b07b8}</uid>
+                    <type>2</type>
+                    <declaration>+removeFrame(frameNumber)</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{818d701f-87f0-48b9-bb41-2612fc37741a}</uid>
+                    <type>2</type>
+                    <declaration>+setColorSelection(color)</declaration>
+                   </MClassMember>
+                  </item>
+                 </qlist>
+                </members>
+               </MClass>
+              </instance>
+             </target>
+            </handle>
+           </item>
+           <item>
+            <handle>
+             <uid>{b1f69922-15a1-41be-ac9d-ac763a65f607}</uid>
+             <target>
+              <instance type="MPackage">
+               <MPackage>
+                <base-MObject>
+                 <MObject>
+                  <base-MElement>
+                   <MElement>
+                    <uid>{b1f69922-15a1-41be-ac9d-ac763a65f607}</uid>
+                    <flags>1</flags>
+                   </MElement>
+                  </base-MElement>
+                  <name>SpriteEditor</name>
+                  <children>
+                   <handles>
+                    <handles>
+                     <qlist>
+                      <item>
+                       <handle>
+                        <uid>{7947eb85-0413-4104-9854-bed0908c7292}</uid>
+                        <target>
+                         <instance type="MComponent">
+                          <MComponent>
+                           <base-MObject>
+                            <MObject>
+                             <base-MElement>
+                              <MElement>
+                               <uid>{7947eb85-0413-4104-9854-bed0908c7292}</uid>
+                               <flags>1</flags>
+                              </MElement>
+                             </base-MElement>
+                             <name>Mainwindow</name>
+                            </MObject>
+                           </base-MObject>
+                          </MComponent>
+                         </instance>
+                        </target>
+                       </handle>
+                      </item>
+                     </qlist>
+                    </handles>
+                   </handles>
+                  </children>
+                 </MObject>
+                </base-MObject>
+               </MPackage>
               </instance>
              </target>
             </handle>
